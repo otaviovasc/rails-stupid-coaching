@@ -1,0 +1,15 @@
+<div class="container">
+  <h1>Stupid Coaching V2</h1>
+  <h2>The same coach you always loved but with Rails</h2>
+
+  <div class="message">
+    <h4><%= @question %></h4>
+    <h4><i>-You</i></h4>
+  </div>
+
+  <div class="message answer">
+    <h4><strong><%= @answer %></strong></h4>
+    <h4><i>-Your coach.</i></h4>
+  </div>
+  <%= link_to "Ask another question.", ask_path %>
+</div>
